@@ -12,8 +12,3 @@ This script find clusters using FindNeighbors and FindClusters in Seurat with di
 #  03_FindMarkers.R
 #================
 Markers was defined utilizing FindAllMarkers function in this script. Significantly overexpressed genes were defined based on the Wilcoxon rank-sum test with a P value < 0.01 and log2 FC > 0.1
-
-#================
-#  04_GOenrich.R
-#================
-Gene Ontology enrichment analyses were performed using the R package clusterProfiler in three levels (BP, Biological Process; CC, Cell Components; MF, Molecular Function). This script can describe the enrichment function of marker genes.
